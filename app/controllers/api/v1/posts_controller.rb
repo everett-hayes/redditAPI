@@ -36,5 +36,4 @@ class Api::V1::PostsController < ApplicationController
             params.require(:post).permit(:content)
         end
 
-    
 end
